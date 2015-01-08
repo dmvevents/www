@@ -1,0 +1,14 @@
+/*----------------- Styling for Shortcode Builder -------------------*/
+
+#shortcode_select {
+    height: 25px;
+    }
+
+#shortcode_select input, #shortcode_select select, #shortcode_select textarea {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    }
+
+#shortcode_tab a {
+    font-size: 12px;
+    }

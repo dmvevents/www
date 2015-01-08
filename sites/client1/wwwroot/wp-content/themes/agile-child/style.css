@@ -1,0 +1,15 @@
+/*
+Theme Name:     Agile Child
+Theme URI:      http://portfoliotheme.org/agile
+Description:    Child theme for the Agile Theme by LiveMesh
+Author:         LiveMesh
+Author URI:     http://themeforest.net/user/livemesh
+Template:       agile
+Version:        0.1.0
+*/
+
+@import url("../agile/style.css");
+
+#header.sticky #site-logo {
+    top: 5px;
+    }

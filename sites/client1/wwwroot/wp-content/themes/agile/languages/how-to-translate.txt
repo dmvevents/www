@@ -1,0 +1,19 @@
+Pls download the POEdit software to translate .po file into your language.
+
+You can download the PoEdit application from http://www.poedit.net/
+
+Open .pot file from /languages folder of the theme, rename it to say, "de_DE.po" and start translating each word to your own language.
+
+After you are finished, hit Ctrl + S or Cmd + S or File->Save, and it will create a new .mo file in the same folder.
+
+Then open the wp-config.php file from the root folder of your WordPress install, and replace the line:
+
+define ('WPLANG', '');
+
+with something like:
+
+define ('WPLANG', 'de_DE');
+
+Then make sure the /languages folder of the theme has a file named "de_DE.mo" for the language created from "de_DE.po" file in POEdit.
+
+For more information pls visit - http://code.tutsplus.com/tutorials/translating-your-theme--wp-25014
